@@ -1,0 +1,23 @@
+\
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter (if you keep the notebook around)
+*.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
