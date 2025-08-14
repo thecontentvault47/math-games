@@ -99,4 +99,9 @@ def fact_web(prob):
     if prob["op"]=="×":
         a,b=prob["a"],prob["b"]; p=a*b; facts=[f"{a} × {b} = {p}",f"{b} × {a} = {p}",f"{p} ÷ {a} = {b}",f"{p} ÷ {b} = {a}"]
     else:
-        d,v,q=prob["dividend"],prob["divisor"],prob["answer"]; facts=[f"{q]()
+        d, v, q = prob["dividend"], prob["divisor"], prob["answer"]
+        facts = [
+            f"{d} ÷ {v} = {q}",
+            f"{v} × {q} = {d}",
+            f"{d} ÷ {q} = {v}"
+        ]
